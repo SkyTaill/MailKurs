@@ -9,7 +9,7 @@ public class Main {
 
         GenerationOfRandomNumber();  //первый пункт дз
         GenerationOfRandomWords();   // второй пункт дз
-
+       
     }
     public static void GenerationOfRandomNumber(){
         System.out.print("Загадайте число от 0 до 9 \n");
@@ -22,6 +22,7 @@ public class Main {
         int AttemptCounter=0;
 
         while(true){
+
             int UserVariable=sc.nextInt();
             if(UserVariable==NumberToGuess){
                 System.out.print("Вы угадали,Повторить игру еще раз? 1 – да / 0 – нет \n");
@@ -69,6 +70,7 @@ public class Main {
         while (Checkpoint) {
             System.out.println("ВВедите слово");
             String UserVariable = sc.nextLine();
+
             for (int counterUserWord = 0; counterUserWord < UserVariable.length(); counterUserWord++) {
                 for (int counterWord = 0; counterWord < words[RundomWords].length(); counterWord++) {
 
