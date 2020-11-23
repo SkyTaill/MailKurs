@@ -17,13 +17,7 @@ public class Plate {
         }else{
             System.out.println("В тарелке мало еды");
         }
-        if(cat.catEater()>=satietyMax){
-            System.out.println("Кот наелся и спит");
-            return true;
-        }
-        else{
-            return false;
-        }
+        return cat.catInfo(cat);
     }
     public void addFood(int valOfFood){
         food+=valOfFood;

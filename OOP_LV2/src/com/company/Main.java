@@ -4,7 +4,6 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-
         Cat cat=new Cat(200,2);
         Dog dog=new Dog(500,10,0.5);
 

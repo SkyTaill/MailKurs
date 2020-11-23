@@ -27,4 +27,13 @@ public class Cat {
 
         System.out.println(name+" наелся на "+satietyMax+" / "+satiety );
     }
+    public boolean catInfo(Cat cat) {
+        boolean catInfoEat=false;
+        if (cat.catEater() >= satietyMax) {
+            System.out.println("Кот наелся и спит");
+            catInfoEat= true;
+
+        }
+        return catInfoEat;
+    }
 }
