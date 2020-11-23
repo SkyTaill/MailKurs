@@ -17,13 +17,14 @@ public class Main {
         boolean FourthPeremen;
         int Tseloe=342;
         String SixthPeremen="ERROR001";
-
+            double a5;
             FirstStage(a,b,c,d);
             a1=SecondStage(a,b);
             ThirdStage(Tseloe);
             FourthPeremen=FourthStage(Tseloe);
             SixthStage(SixthPeremen);
             SeventhStage();
+
     }
 
 
